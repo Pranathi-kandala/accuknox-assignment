@@ -96,4 +96,4 @@ The application uses Tailwind CSS with custom CSS variables for theming. Modify 
 - `npm run build` - Build for production
 - `npm start` - Start production server
 - `npm run check` - Type check TypeScript
-- `npm run db:push` - Push database schema changes
+
