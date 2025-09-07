@@ -62,18 +62,6 @@ cd dashboard-application
 npm install
 ```
 
-3. Set up environment variables:
-Create a `.env` file with your database connection string:
-```
-DATABASE_URL=your_database_connection_string
-PORT=5000
-```
-
-4. Run database migrations:
-```bash
-npm run db:push
-```
-
 ### Development
 
 Start the development server:
