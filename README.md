@@ -84,26 +84,6 @@ npm run dev
 The application will be available at `http://localhost:5000`
 
 
-## Project Structure
-
-```
-├── client/                 # Frontend React application
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Page components
-│   │   ├── store/          # Redux store configuration
-│   │   ├── lib/            # Utility functions and configs
-│   │   └── types/          # TypeScript type definitions
-│   └── index.html
-├── server/                 # Backend Express server
-│   ├── index.ts            # Server entry point
-│   ├── routes.ts           # API routes
-│   ├── storage.ts          # Database operations
-│   └── vite.ts             # Vite development integration
-├── shared/                 # Shared types and schemas
-│   └── schema.ts           # Database schema definitions
-└── package.json
-```
 
 ## API Endpoints
 
