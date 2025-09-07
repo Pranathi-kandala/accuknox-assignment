@@ -1,7 +1,10 @@
 
-# Dashboard Application
+## Dashboard Application
 
 A modern full-stack dashboard application built with React, TypeScript, and Express. This interactive dashboard system allows users to manage and customize various widgets across different security and monitoring categories.
+
+
+
 
 # Preview
 -**Navbar features like refresh,filtering according to day,hr,search feature** 
@@ -15,21 +18,21 @@ A modern full-stack dashboard application built with React, TypeScript, and Expr
 
 
 ## Features
+**Dynamic Navbar** – Refresh, filter by day/hour, and search functionality.
+
+**Customizable Dashboards** – Create and personalize dashboards to fit your workflow.
+
+**Widget Management** – Add, configure, and style widgets with different chart types and color themes.
+
+**Ticket Management** – Handle tickets seamlessly with dropdown-based controls.
+
+**Data Visualization** – Interactive charts and graphs powered by Recharts.
+
+**Responsive Design** – Mobile-friendly interface built with Tailwind CSS.
+
+**State Management** – Predictable and scalable state flow with Redux Toolkit.
 
 
-- **Interactive Dashboard**: Customizable widgets across multiple categories
-- **Widget Management**: Add, remove, and configure dashboard widgets
-- **Data Visualization**: Charts and graphs using Recharts library
-- **Responsive Design**: Mobile-friendly interface with Tailwind CSS
-- **State Management**: Redux Toolkit for predictable state management
-- **Real-time Updates**: Live data updates and interactive components
-
-## Widget Categories
-
-- **CSPM (Cloud Security Posture Management)**: Cloud account monitoring and risk assessment
-- **CWPP (Cloud Workload Protection Platform)**: Namespace alerts and workload monitoring
-- **Registry Scan**: Image vulnerability assessments and security issues
-- **Ticket Management**: Task tracking and status management
 
 ## Tech Stack
 
@@ -41,24 +44,10 @@ A modern full-stack dashboard application built with React, TypeScript, and Expr
 - **Recharts** for data visualization
 - **Wouter** for routing
 
-### Backend
-- **Node.js** with Express.js
-- **TypeScript** with ES modules
-- **PostgreSQL** with Drizzle ORM
-- **Neon** serverless database
-- **Express Session** for session management
-
-### Development Tools
-- **Vite** for fast development and building
-- **ESBuild** for server builds
-- **Drizzle Kit** for database migrations
-- **TypeScript** for type checking
 
 ## Getting Started
 
-### Prerequisites
-- Node.js 20 or higher
-- PostgreSQL database (or use included Neon serverless)
+
 
 ### Installation
 
@@ -94,17 +83,6 @@ npm run dev
 
 The application will be available at `http://localhost:5000`
 
-### Production Build
-
-Build the application:
-```bash
-npm run build
-```
-
-Start the production server:
-```bash
-npm start
-```
 
 ## Project Structure
 
@@ -134,21 +112,8 @@ npm start
 - `PUT /api/widgets/:id` - Update a widget
 - `DELETE /api/widgets/:id` - Delete a widget
 
-## Database Schema
 
-The application uses PostgreSQL with the following main tables:
 
-- **users**: User authentication and profiles
-- **dashboard_widgets**: Widget configurations and settings
-
-## Customization
-
-### Adding New Widget Types
-
-1. Define the widget type in `client/src/types/dashboard.ts`
-2. Create the widget component in `client/src/components/`
-3. Add the widget to the available widgets in `client/src/lib/dashboardConfig.ts`
-4. Update the widget rendering logic in `client/src/components/WidgetCard.tsx`
 
 ### Styling
 
